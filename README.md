@@ -6,6 +6,12 @@ Front End imersion with React JS
 // Criação do projeto através do terminal Ubuntu
     - npm create vite@latest -> selecionado react -> selecionado react-ts
 
+// Executar comando para instalar todas as dependencias
+    - npm i
+
+// Acessar terminal
+    -npm run dev
+
 // Comandos Git
     git branch                  = mostra todos branch locais
     git branch -r               = mostra todos branch locais e remotos
