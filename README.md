@@ -3,6 +3,9 @@ Front End imersion with React JS
 
 // Repositório criado no GitHub clonado para pasta local git usando comando git clone 'ssh link'
 
+// Criação do projeto através do terminal Ubuntu
+    - npm create vite@latest -> selecionado react -> selecionado react-ts
+
 // Comandos Git
     git branch                  = mostra todos branch locais
     git branch -r               = mostra todos branch locais e remotos
@@ -13,3 +16,4 @@ Front End imersion with React JS
     git add "nome_do_arquivo"   = adiciona o arquivo do working directory para o stage index
     git commit -m "mesagem"     = adiciona as modificações do arquivo para o repositório, registrando histórico de atualizações
     
+
