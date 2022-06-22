@@ -1,13 +1,16 @@
 git# Ignite-Lab
 Front End imersion with React JS
 
+Ferramentas utilizadas Tailwind
+
 // Repositório criado no GitHub clonado para pasta local git usando comando git clone 'ssh link'
 
 // Criação do projeto através do terminal Ubuntu
     - npm create vite@latest -> selecionado react -> selecionado react-ts
 
-// Executar comando para instalar todas as dependencias
-    - npm i
+// Comando de instalçao para instalar todas as dependencias
+    - npm i                     =instalar todas as dependencias
+    - npx tailwindcss init -p 
 
 // Acessar terminal
     -npm run dev
