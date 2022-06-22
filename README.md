@@ -13,6 +13,8 @@ Ferramentas utilizadas Tailwind
     - npm i tailwindcss postcss autoprefixer -D    = instalar o tailwindcss e dependecias de desenvolvimnto
     - npx tailwindcss init -p                      = inicia os arquivos tailwindcss
     - npm i @apollo/client graphql                 = instalar apollo/client e graphl -> utilizar para o graphcms 
+    - npm i phosphor-react                         = instalar biblioteca de icones
+    - npm i date-fns                               = instalar js para formatação de datas
 
 // Acessar terminal
     -npm run dev
