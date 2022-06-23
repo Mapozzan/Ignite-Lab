@@ -15,6 +15,8 @@ Ferramentas utilizadas Tailwind
     - npm i @apollo/client graphql                 = instalar apollo/client e graphl -> utilizar para o graphcms 
     - npm i phosphor-react                         = instalar biblioteca de icones
     - npm i date-fns                               = instalar js para formatação de datas
+    - npm i @vime/core @vime/react --force         = instalar gerenciador de videos
+    - npm i react-router-dom                       = instalação do controlador de rotas do react
 
 // Acessar terminal
     -npm run dev
