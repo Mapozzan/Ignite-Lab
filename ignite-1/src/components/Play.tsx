@@ -37,7 +37,7 @@ interface GetLessonBySlugResponse{
 interface PlayProps {
     lessonSlug: string;
 }
-
+// {!* {data?.lesson.videoID} *!}
 export function Play(props : PlayProps) {
 
     const { data } = useQuery<GetLessonBySlugResponse>(GET_LESSON_BY_SLUG_QUERY, {variables:{slug: props.lessonSlug}})
@@ -47,7 +47,8 @@ export function Play(props : PlayProps) {
             <div className="bg-black flex justify-center"> 
                 <div className="h-full w-full max-w-[900px ]max-h-[60vh] aspect-video">
                     <Player>
-                        <Youtube videoId ={data?.lesson.videoID}/>
+                        <Youtube videoId= "Ox_zb2cs9zM" /> 
+                        
                         <DefaultUi />
                     </Player>
                 </div>
