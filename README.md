@@ -9,14 +9,15 @@ Ferramentas utilizadas Tailwind
     - npm create vite@latest -> selecionado react -> selecionado react-ts
 
 // Comando de instalçao para instalar todas as dependencias
-    - npm i                                        = instalar todas as dependencias
-    - npm i tailwindcss postcss autoprefixer -D    = instalar o tailwindcss e dependecias de desenvolvimnto
-    - npx tailwindcss init -p                      = inicia os arquivos tailwindcss
-    - npm i @apollo/client graphql                 = instalar apollo/client e graphl -> utilizar para o graphcms 
-    - npm i phosphor-react                         = instalar biblioteca de icones
-    - npm i date-fns                               = instalar js para formatação de datas
-    - npm i @vime/core @vime/react --force         = instalar gerenciador de videos
-    - npm i react-router-dom                       = instalação do controlador de rotas do react
+    - npm i                                                   = instalar todas as dependencias
+    - npm i tailwindcss postcss autoprefixer -D               = instalar o tailwindcss e dependecias de desenvolvimnto
+    - npx tailwindcss init -p                                 = inicia os arquivos tailwindcss
+    - npm i @apollo/client graphql                            = instalar apollo/client e graphl -> utilizar para o graphcms 
+    - npm i phosphor-react                                    = instalar biblioteca de icones
+    - npm i date-fns                                          = instalar js para formatação de datas
+    - npm i @vime/core @vime/react --force                    = instalar gerenciador de videos
+    - npm i react-router-dom                                  = instalação do controlador de rotas do react
+
 
 // Acessar terminal
     -npm run dev

@@ -17,7 +17,7 @@ export function Subscribe() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
 
-    const [createSubscriber] = useMutation(CREATE_SUBSCRIBER_MUTATION);
+    const [createSubscriber, {loading}] = useMutation(CREATE_SUBSCRIBER_MUTATION);
 
     async function handleSubscribe(event: FormEvent) {
         event.preventDefault();
@@ -25,7 +25,7 @@ export function Subscribe() {
         await createSubscriber({
             variables: {
                 name,
-                email
+                email,
             }
         })
 
@@ -58,8 +58,9 @@ export function Subscribe() {
                                 onChange={event => setEmail(event.target.value)}
                         />
 
-                        <button className="uppercase bg-green-500 py-4 rounded font-bold text-sm hover:bg-green-900 transition-colors"
-                                type="submit">
+                        <button className="uppercase bg-green-500 py-4 rounded font-bold text-sm hover:bg-green-900 transition-colors disabled::opacity-50"
+                                type="submit"
+                                disabled = {loading}  >  
                             Garantir minha vaga</button>
                     </form>
                 </div>

@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.6.8",
+    "@graphql-codegen/cli": "^1.17.8",
+    "@graphql-codegen/typescript-operations": "^2.4.2",
     "@vime/core": "^5.3.1",
     "@vime/react": "^5.3.1",
     "date-fns": "^2.28.0",

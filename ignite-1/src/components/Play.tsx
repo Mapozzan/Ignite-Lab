@@ -40,14 +40,23 @@ interface PlayProps {
 // {!* {data?.lesson.videoID} *!}
 export function Play(props : PlayProps) {
 
-    const { data } = useQuery<GetLessonBySlugResponse>(GET_LESSON_BY_SLUG_QUERY, {variables:{slug: props.lessonSlug}})
+    const { data } = useQuery<GetLessonBySlugResponse>(GET_LESSON_BY_SLUG_QUERY, {variables:{slug: props.lessonSlug}, fetchPolicy:'no-cache'})
+
+
+    if (!data) {
+        return(
+            <div className="flex-1">
+                <p>Carregando...</p>
+            </div>
+        )
+    }
 
     return(
         <div className="flex-1">
             <div className="bg-black flex justify-center"> 
                 <div className="h-full w-full max-w-[900px ]max-h-[60vh] aspect-video">
                     <Player>
-                        <Youtube videoId= "Ox_zb2cs9zM" /> 
+                        <Youtube videoId = {data.lesson.videoID} key={data.lesson.videoID} /> 
                         
                         <DefaultUi />
                     </Player>
