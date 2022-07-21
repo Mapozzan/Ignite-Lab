@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 git# Ignite-Lab
 Front End imersion with React JS
 
@@ -39,3 +40,6 @@ Comentários
 //tsx = extensão TypeScript + Jsx (XML dentro do JavascriptS) -->
 // CMS = Content Management System
 // Headless CMS: Painel de ADMIN (dados fornecidos através de uma API REST ou GraphQL)
+=======
+
+>>>>>>> 358a0f9f949d6cec8b3c59adca2ae12a8d8abdaf
