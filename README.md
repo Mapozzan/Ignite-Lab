@@ -17,7 +17,10 @@ Ferramentas utilizadas Tailwind
     - npm i date-fns                                          = instalar js para formatação de datas
     - npm i @vime/core @vime/react --force                    = instalar gerenciador de videos
     - npm i react-router-dom                                  = instalação do controlador de rotas do react
-
+    - npm i @graphql-codegen/cli  -D                          = instalar pacote qraphql/codegen
+    - npm i @graphql-codegen/typescript 
+            @graphql-codegen/typescript-operations
+            @graphql-codegen/typescript-react-apollo -D       = instalar plugins para funcionamento codegen
 
 // Acessar terminal
     -npm run dev
