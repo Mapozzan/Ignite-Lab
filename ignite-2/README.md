@@ -8,7 +8,14 @@ Front End imersion with React JS
     - expo init -> seleciona Bare workflow
 
 // Comando de instalçao para instalar todas as dependencias
- 
+    - npm install native-base                            = Instala a biblioteca native base, usamos para adiocionar components.
+    - expo install react-native-svg                      = Dependencia para o native base usar svg
+    - expo install react-native-safe-area-context  
+    - expo install expo-font @expo-google-fonts/roboto   = instalar fonte utilizada no projeto
+    - npm i react-native-svg-transformer --save-dev      = instalar para utilizar componentes svgs
+    - npm install --save phosphor-react-native           = instalar biblioteca de incone
+    - npm install @react-navigation/native               = instalar bibliteca para navegação entre telas
+    -expo install react-native-screens                   = instalar dependecias para Expo
 // Acessar App
     -expo start --tunnel
 
