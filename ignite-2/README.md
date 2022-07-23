@@ -15,7 +15,13 @@ Front End imersion with React JS
     - npm i react-native-svg-transformer --save-dev      = instalar para utilizar componentes svgs
     - npm install --save phosphor-react-native           = instalar biblioteca de incone
     - npm install @react-navigation/native               = instalar bibliteca para navegação entre telas
-    -expo install react-native-screens                   = instalar dependecias para Expo
+    - expo install react-native-screens                  = instalar dependecias para Expo
+    - npm install @react-navigation/native-stack         = instalar biblioteca para usar stack navigation
+    - npm install --save @react-native-firebase/app      = instalar firebase para react
+    - expo prebuild                                      = depois de adcionar arquivos google-service para android e ios, executa esse comando.
+    - npm i @react-native-firebase/firestore             = instalar dependencias da firestore.
+    - npm i @react-native-firebase/auth                  = instalar dependencias de autenticação
+
 // Acessar App
     -expo start --tunnel
 
