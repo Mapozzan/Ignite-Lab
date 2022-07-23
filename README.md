@@ -1,10 +1,7 @@
 <<<<<<< HEAD
 git# Ignite-Lab 1
-Front End imersion with React JS
+Front End with React JS
 =======
-git# Ignite-Lab
-Front End aplication with React JS
->>>>>>> 358a0f9f949d6cec8b3c59adca2ae12a8d8abdaf
 
 git# Ignite-Lab 2
 Mobile imersion with React Native
